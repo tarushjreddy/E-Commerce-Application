@@ -78,10 +78,10 @@ public class MainActivity extends AppCompatActivity {
 
         // adding data to model
        recentlyViewedList = new ArrayList<>();
-       recentlyViewedList.add(new RecentlyViewed("Watermelon", "Watermelon has high water content and also provides some fiber.", "₹ 80", "1", "KG", card4, b4));
-       recentlyViewedList.add(new RecentlyViewed("Papaya", "Papayas are spherical or pear-shaped fruits that can be as long as 20 inches.", "₹ 85", "1", "KG", card3, b3));
-       recentlyViewedList.add(new RecentlyViewed("Strawberry", "The strawberry is a highly nutritious fruit, loaded with vitamin C.", "₹ 30", "1", "KG", card2, b1));
-       recentlyViewedList.add(new RecentlyViewed("Kiwi", "Full of nutrients like vitamin C, vitamin K, vitamin E, folate, and potassium.", "₹ 30", "1", "PC", card1, b2));
+       recentlyViewedList.add(new RecentlyViewed("Watermelon", "Watermelon is a fruit and it is very tasty.", "₹ 980", "1", "KG", card4, b4));
+       recentlyViewedList.add(new RecentlyViewed("Papaya", "Papayas is a fruit and it is very tasty.", "₹ 985", "1", "KG", card3, b3));
+       recentlyViewedList.add(new RecentlyViewed("Strawberry", "Strawberry is a fruit and it is very tasty.", "₹ 830", "1", "KG", card2, b1));
+       recentlyViewedList.add(new RecentlyViewed("Kiwi", "Kiwi is a fruit and it is very tasty.", "₹ 830", "1", "PC", card1, b2));
 
         setDiscountedRecycler(discountedProductsList);
         setCategoryRecycler(categoryList);
